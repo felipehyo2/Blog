@@ -1,0 +1,241 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #ccc url(' ../imagens/fundo.png') repeat-x;
+	font-family: Helvetica, sans-serif;
+	font-size: 62.5%;
+	color: #333;
+	}
+	
+h1, h2, p, ul, li{
+	margin: 0;
+	padding: 0;
+	}
+	
+p{
+	font-size: 1.4em;
+	line-height: 1.4em;
+	}
+
+ul{
+	list-style-type: none;
+	}
+	
+/*
+DEFINIÇÂO DOS LINKS
+*/
+
+a:link, a:visited{
+	color: blue;
+	background:;
+	
+	color:purple;
+	}
+
+/*
+"MARGIN: 0 AUTO" PARA ELIMINAR OS OBJETOS NO CENTRO DA PÁGINA.
+*/
+
+nav{
+	
+	float: center;
+	font-size: 1.4em;
+	}
+	
+nav h1{
+	color: #ccc;
+	}
+	
+nav ul{
+	float:center;
+	padding:5px;
+	margin: 0px 0px 0px 60px;
+	font-size: 2em;
+	font-weight: bolder;
+	}
+	
+nav li{
+	display:inline;
+	margin: 0 0 0 5px;
+	float:center;
+	}
+nav li a{
+	color: #333;
+	text-decoration: none;
+
+}
+
+nav li  a:link, nav li a:visited{
+	background-color:#ccc;
+	color:blue;
+	border-radius:10px;
+	padding:1% 4% 1% 4%;
+	margin:0 0 0 0;
+	position:inline;
+	font-size:20px;
+	font-family:mscursiva;
+	border:solid 1px blue;
+	
+
+
+}
+	
+section{
+	margin: 0 auto;
+	padding: 10px;
+	width: 80%;
+	height: 120%;
+	background: black;
+	border: 1px solid #808080;
+	
+	}
+section#galeria{
+	margin: 0 auto;
+	padding: 10px;
+	width: 80%;
+	height: 950px;
+	background: black;
+	border: 1px solid #808080;
+}
+section#contato{
+	margin: 0 auto;
+	padding: 10px;
+	width: 80%;
+	height: 950px;
+	background: black;
+	border: 1px solid #808080;
+}
+	
+article{
+	width: 550px;
+	padding: 10px;
+	color:#9C9C9C;
+	float: left;
+	margin: 20px 0 20px 30px;
+	}
+article#galeria{
+	width: 100%;
+	padding: 10px;
+	color:#9C9C9C;
+	margin: 20px 0 20px 30px;
+
+}
+	
+article h2{
+	font-size: 2em;
+	margin: 0 0 10px 0;
+	}
+	
+article h2#galeria{
+	font-size: 3em;
+	margin: 0 0 10px -80px;
+	font-family:comic sans;
+	}
+	
+article p{
+	margin: 0 0 10px 0;
+	}
+	
+article ul{
+	margin: 20px 0 0 0;
+	font-size: 1.4em;
+	}
+	
+article ul li{
+	margin: 0 0 10px 0;
+	}
+	
+aside{
+	float: left;
+	background: #ccc;
+	width:160px;
+	margin: 20px 0 20px 20px;
+	padding:10px;
+	border-radius:10px;
+	border:solid 2px blue;
+	
+	}
+aside#dois{
+	float: right;
+	background: black;
+	width:160px;
+	margin: 20px 20px 0 20px;
+	padding:10px;
+	border-radius:10px;
+
+}
+	
+aside h2{
+	font-size:20px;
+	border-bottom: 2px solid black;
+	margin: 0 0 20px 0;
+	padding: 5px;
+	color: black;
+	}
+aside h2#dois{
+	border-bottom: 2px solid blue;
+	font-family:mscursiva;
+	font-size:25px;
+	margin: 0 0 20px 0;
+	padding: 5px;
+	color: #ccc;
+
+}
+iframe{
+	height: 220px;
+	width: 240px;
+	float: center;
+}
+
+iframe#aside{
+	height: 134px;
+	width: 155px;
+	float: center;
+}
+
+
+	
+#port li{
+	margin: 0 10px 20px 0;
+	float: left;
+	border: 1px solid black;
+	}
+	
+#port img{
+	height: 134px;
+	width: 155px;
+	float: center;
+	}
+#port2 li{
+	margin: 0 10px 20px 0;
+	float: left;
+	border: 1px solid blue;
+	}
+	
+#port2 img{
+	height: 220px;
+	width: 240px;
+	float: center;
+}
+.bannerlogo{
+	width:100%;
+	height:150px;
+}
+	
+footer{
+	clear: both;
+	background: #eee;
+	padding: 10px;
+	border-top: 2px solid #ddd;
+	text-align: center;
+	color: #777;
+	}
+#fotoZoom {
+width:0; height:0; background-color:white;
+display: none; visibility: visible; position: absolute;
+text-align:center;top:0px; left:15%;
+}
+#bgFotoZoom {
+background-color: black; opacity: 0.5; -moz-opacity: 0.5; filter: alpha(opacity=50); display: none;
+width:100%; height:100%; top:0px; left:0px; visibility:visible; position:absolute;
+}

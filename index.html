@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html">
+<html lang="pt-br">
+<script language="JavaScript" type="text/javascript">
+function amplia(){
+document.getElementById('fotoZoom').style.display='block';
+document.getElementById('bgFotoZoom').style.display='block';
+}
+</script>
+<script language="JavaScript">
+function abre(img,legenda,credito,largura,altura) {
+document.getElementById("fotoZoom").innerHTML="<center><table bgcolor='white' cellspadding='1' cellspacing='1'><tr><td align=center><font size=2 face=Verdana>"+legenda+"</td></tr><tr><td><a href='javascript:fecha();'><img alt='"+legenda+"' src='"+img+"' width='"+largura+"' height='"+altura+"'></a></td></tr><tr><td align=right><font size=2 face=Verdana>"+credito+"&nbsp;</font></td></tr></table>";
+}
+</script>
+<head>
+	<title> HyO </title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="css/estilos.css" type="text/css" media="all" />
+</head>
+<body>
+
+	<section>
+		<header>
+<img alt="Logotipo HyO" longdesc="descricao.html" src="imagens/banner.png" class="bannerlogo"/>
+		</header>
+		<nav>
+			<ul>
+				<li><a tabindex="1" class="active" title="Strada Transportadora" href="index.html"> Início </a> </li>
+				<li><a tabindex="2" title="Galeria" href="galeria.html"> Galeria </a> </li>
+				<li><a tabindex="3" title="Noticias" href="noticias.html"> Notícias </a> </li>
+				<li><a tabindex="4" title="acess" href="acessibilidade.html"> Acessibilidade </a> </li>
+				<li><a tabindex="5" title="Fatec" href="fatec.html"> Fatec </a> </li>
+				<li><a tabindex="6" title="Contato" href="contato.html"> Contato </a> </li>
+			</ul>
+			</nav>
+
+			<aside>
+			<h2 align="center"> Galeria </h2>
+			<ul id="port">
+				<li> <a href="javascript: amplia();" onclick="abre ('imagens/foto01.jpg')"> <img alt="foto1" src="imagens/foto01.jpg" /></a></li>
+				<li> <iframe id="aside" alt="5 maneiras de comemorar seu aniversário" src="http://www.youtube.com/embed/VLZoWzWDyoE?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></li>
+			</ul>
+		</aside>
+			<article>
+				<h2> Bem Vindo ao site HyO</h2>
+				<div id='bgFotoZoom'>
+</div>
+<center><div id='fotoZoom'></div>
+</center>
+<center>
+<table style="width: 200px; text-align: center;" border="0"
+cellpadding="1" cellspacing="1" bgcolor="white">
+<tbody>
+
+</table>
+				
+				<ul>
+					<li><a title="Contato HyO" href="contato.html"> Entre em Contato </a> </li>
+				</ul>
+			</article>
+			<aside id="dois">
+			<h2 id="dois" align="center"> Parcerias </h2>
+			<ul id="port">
+				<li> <img alt="Logo Fatec" src="imagens/logofatec.png" /></li>
+				<li> <img alt="foto2" src="imagens/foto02.jpg" /></li>
+			</ul>
+		</aside>
+		
+		<footer>
+			<p> Copyright &copy; Empresas HyO 2013, todos
+			os direitos reservados. </p>
+		</footer>
+	</section>
