@@ -48,7 +48,7 @@ nav h1{
 	
 nav ul{
 	float:center;
-	padding:5px;
+	padding:10px;
 	margin: 0px 0px 0px 60px;
 	font-size: 2em;
 	font-weight: bolder;
@@ -56,7 +56,7 @@ nav ul{
 	
 nav li{
 	display:inline;
-	margin: 0 0 0 5px;
+	margin: 0 0 0 17px;
 	float:center;
 	}
 nav li a{
